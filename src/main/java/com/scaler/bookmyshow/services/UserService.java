@@ -1,4 +1,7 @@
 package com.scaler.bookmyshow.services;
 
+import com.scaler.bookmyshow.models.User;
+
 public interface UserService {
+    public User signup(String name ,String email,String password);
 }
